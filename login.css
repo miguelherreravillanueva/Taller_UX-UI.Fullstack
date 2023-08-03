@@ -1,0 +1,40 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-family: "Libre Baskerville", serif;
+  }
+  
+  h1 {
+    color: rgb(51, 241, 51);
+  }
+
+  form{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      margin: 20px;
+  }
+  
+  input,button{
+      all:unset;
+      border: 1px solid rgb(255, 190, 190);
+      border-radius: 10px;
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  button{
+      text-align: center;
+      background-color: rgb(126, 24, 24);
+      color: white;
+  }
+  
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  .container-form{
+      display: flex;
+      justify-content: center;
+  }
